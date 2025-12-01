@@ -106,14 +106,30 @@ document.addEventListener('DOMContentLoaded', () => {
         renderDeeds(filteredDeeds);
     }
 
+    let deedsContent = {};
+
+    // Fetch deeds content
+    fetch('deeds_content.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                deedsContent[item.id] = item;
+            });
+        })
+        .catch(error => console.log('Deeds content not found or error loading:', error));
+
     function openDeedModal(deed) {
+        const content = deedsContent[deed.id] ? deedsContent[deed.id].content : deed.description;
+        
         modalBody.innerHTML = `
             <div class="modal-header">
                 <span class="modal-number">Deed #${deed.id}</span>
                 <h2 class="modal-title">${deed.title}</h2>
             </div>
             <div class="modal-body">
-                <p>${deed.description}</p>
+                <div class="deed-full-content">
+                    ${formatContent(content)}
+                </div>
                 <div class="deed-tags">
                     <span class="tag" style="font-size: 1rem; padding: 0.5rem 1rem;">
                         Category: ${formatCategory(deed.category)}
@@ -122,6 +138,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         toggleModal(true);
+    }
+
+    function formatContent(text) {
+        // Simple formatting: split by newlines and wrap in paragraphs
+        return text.split('\\n').map(para => para.trim() ? `<p>${para}</p>` : '').join('');
     }
 
     function toggleModal(show) {
