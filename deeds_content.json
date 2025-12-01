@@ -2,6 +2,411 @@
     {
         "id": 1,
         "title": "Good Intention",
-        "content": "The validity and reward of any good deed are intrinsically linked to the purity of one's intention. A good deed will only be rewarded if it is performed with the right intention. For instance, performing prayer solely for the pleasure of Allah will earn reward, but if done to impress others, it leads to sin. Even permissible daily activities like earning a livelihood, choosing a profession, or dressing well can be transformed into acts of worship when coupled with a good intention.\n\n(This is a sample detailed content fetched from the JSON file to verify the implementation.)"
+        "content": "The validity and reward of any good deed are intrinsically linked to the purity of one's intention. A good deed will only be rewarded if it is performed with the right intention. For instance, performing prayer solely for the pleasure of Allah will earn reward, but if done to impress others, it leads to sin. Even permissible daily activities like earning a livelihood, choosing a profession, or dressing well can be transformed into acts of worship when coupled with a good intention.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 2,
+        "title": "Du'a (Supplication)",
+        "content": "The essence of worship. Asking from Allah connects the servant to the Creator and acknowledges one's dependence on Him.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 3,
+        "title": "Prophetic Du'as",
+        "content": "Reciting the specific supplications taught by the Prophet \ufdfa for various occasions brings barakah and follows the Sunnah.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 4,
+        "title": "Seeking Forgiveness (Istighfar)",
+        "content": "Constantly seeking forgiveness cleanses the heart, removes sins, and opens the doors of sustenance and mercy.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 5,
+        "title": "Dhikr (Remembrance) of Allah",
+        "content": "Keeping the tongue moist with the remembrance of Allah brings tranquility to the heart and immense rewards.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 6,
+        "title": "Blessings upon the Prophet (Salawat)",
+        "content": "Sending blessings upon the Prophet \ufdfa is a means of having one's own sins forgiven and concerns alleviated.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 7,
+        "title": "Gratitude (Shukr)",
+        "content": "Expressing gratitude to Allah for His countless blessings ensures their increase and pleases the Lord.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 8,
+        "title": "Patience (Sabr)",
+        "content": "Enduring hardships with patience and trust in Allah's wisdom is a quality of the steadfast and brings immeasurable reward.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 9,
+        "title": "Beginning with Bismillah",
+        "content": "Starting every important action with the name of Allah brings blessings and protection to that action.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 10,
+        "title": "Initiating Salam",
+        "content": "To precede in greeting is a Sunnah. Being the first to offer salam spreads peace and love. However, it is advisable to wait if the person is occupied with worship or study. If a group is seated, they should be greeted. Failing to reply to a salam is considered sinful. When a letter containing 'salam alaikum' is received, it should be responded to verbally.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 11,
+        "title": "Visiting the Sick",
+        "content": "Visiting the sick is an act of great merit and a right of a Muslim. The Prophet \ufdfa said, 'When a Muslim visits his sick brother in faith, he is all the time in the garden of Paradise.' Another Hadith states that seventy thousand angels pray for the visitor's forgiveness. The proper etiquette includes placing one's hand on the sick person's forehead to offer comfort.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 12,
+        "title": "Attending Funeral (Janazah)",
+        "content": "Participating in the funeral prayer and burial of a Muslim fulfills a communal obligation and reminds one of the Hereafter.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 13,
+        "title": "Consoling the Bereaved",
+        "content": "Comforting those who have lost loved ones brings great reward and strengthens community bonds.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 14,
+        "title": "Love for the Sake of Allah",
+        "content": "Loving others not for worldly gain but solely for Allah's sake is a sign of true faith and leads to Allah's shade on Judgment Day.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 15,
+        "title": "Helping a Muslim",
+        "content": "Assisting a fellow Muslim in their time of need causes Allah to assist you in your time of need.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 16,
+        "title": "Interceding for Good",
+        "content": "Using one's influence to help someone in a permissible matter is a form of charity.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 17,
+        "title": "Concealing Faults",
+        "content": "Hiding the shortcomings of others leads to Allah concealing one's own faults in this world and the Hereafter.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 18,
+        "title": "Guiding towards Good",
+        "content": "Directing someone to a good deed earns the same reward as the doer of that deed.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 19,
+        "title": "Charity (Sadaqah)",
+        "content": "Giving from one's wealth to those in need extinguishes sins like water extinguishes fire.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 20,
+        "title": "Forgiving Others",
+        "content": "Pardoning those who have wronged you is a noble trait that brings honor and Allah's forgiveness.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 21,
+        "title": "Being Soft-Spoken",
+        "content": "Speaking gently and kindly is a charity and reflects the beautiful character of a believer.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 22,
+        "title": "Reconciliation",
+        "content": "Making peace between two disputing parties is a highly virtuous act that preserves the unity of the community.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 23,
+        "title": "Supporting Orphans & Widows",
+        "content": "Caring for the most vulnerable in society places one close to the Prophet \ufdfa in Paradise.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 24,
+        "title": "Spending on Family",
+        "content": "Spending on one's own family with the intention of reward is considered a form of charity.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 25,
+        "title": "Good Conduct with Parents",
+        "content": "Treating parents with kindness, respect, and obedience is one of the greatest deeds after worshipping Allah.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 26,
+        "title": "Respecting Parents' Friends",
+        "content": "Maintaining ties with the friends and relatives of one's parents after they pass away is a form of dutifulness.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 27,
+        "title": "Good Marital Relations",
+        "content": "Treating one's spouse with love, mercy, and fairness is a sign of the best of believers.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 28,
+        "title": "Maintaining Kinship Ties",
+        "content": "Upholding ties with relatives extends one's life and increases provision.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 29,
+        "title": "Good Treatment of Neighbors",
+        "content": "Being kind and helpful to neighbors is a fundamental instruction of Jibreel (AS) to the Prophet \ufdfa.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 30,
+        "title": "Being Cheerful",
+        "content": "Meeting others with a smiling face is a charity and brings joy to the hearts of believers.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 31,
+        "title": "Good Travel Companionship",
+        "content": "Being a helpful and considerate companion during travel is a sign of good character.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 32,
+        "title": "Meeting for Allah's Sake",
+        "content": "Visiting one another solely for the love of Allah strengthens the bond of brotherhood.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 33,
+        "title": "Honoring Guests",
+        "content": "Treating guests with generosity and respect is a sign of belief in Allah and the Last Day.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 34,
+        "title": "Removing Obstacles",
+        "content": "Removing harmful objects from the path is a branch of faith and a form of charity.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 35,
+        "title": "Refraining from Arguments",
+        "content": "Avoiding arguments, even when one is right, guarantees a house in the surroundings of Paradise.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 36,
+        "title": "Learning Religion",
+        "content": "Seeking knowledge of Islam is an obligation and a path to Paradise.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 37,
+        "title": "Teaching Religion",
+        "content": "Imparting beneficial knowledge is a continuous charity (Sadaqah Jariyah) that benefits one even after death.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 38,
+        "title": "Respecting Elders",
+        "content": "Showing honor to the elderly is part of glorifying Allah.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 39,
+        "title": "Respecting Signs of Islam",
+        "content": "Venerating the symbols of Allah (like the Quran, Mosques) comes from the piety of the heart.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 40,
+        "title": "Kindness to Children",
+        "content": "Showing mercy and affection to children is a characteristic of the Prophet \ufdfa.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 41,
+        "title": "Performing Adhan",
+        "content": "Calling people to prayer earns the Mu'adhin forgiveness as far as his voice reaches.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 42,
+        "title": "Responding to Adhan",
+        "content": "Repeating the words of the Adhan and reciting the dua afterwards guarantees the Prophet's intercession.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 43,
+        "title": "Reciting Quran",
+        "content": "Reciting the Book of Allah brings ten rewards for every letter and intercedes for the reciter on Judgment Day.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 44,
+        "title": "Reciting Surah Fatihah & Ikhlas",
+        "content": "Frequent recitation of these Surahs carries immense weight and reward.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 45,
+        "title": "Perfecting Wudu",
+        "content": "Performing ablution thoroughly, especially in difficulty, washes away sins.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 46,
+        "title": "Using Miswak",
+        "content": "Using the toothstick is a purification for the mouth and pleasing to the Lord.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 47,
+        "title": "Dhikr after Wudu",
+        "content": "Reciting the testimony of faith after Wudu opens the eight gates of Paradise.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 48,
+        "title": "Tahiyyat al-Wudu",
+        "content": "Praying two rak'ats after Wudu is a means of entering Paradise.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 49,
+        "title": "Tahiyyat al-Masjid",
+        "content": "Praying two rak'ats upon entering the mosque honors the House of Allah.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 50,
+        "title": "Intention of I'tikaf",
+        "content": "Making intention for I'tikaf whenever entering a mosque turns the visit into a period of worship.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 51,
+        "title": "Praying in First Row",
+        "content": "The first row in prayer has the greatest reward, similar to the row of angels.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 52,
+        "title": "Filling Gaps in Rows",
+        "content": "Connecting the rows in prayer connects one to Allah's mercy.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 53,
+        "title": "Ishraq Prayer",
+        "content": "Praying after sunrise brings the reward of a complete Hajj and Umrah.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 54,
+        "title": "Friday Preparations",
+        "content": "Bathing, using perfume, and wearing clean clothes on Friday are emphasized Sunnahs.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 55,
+        "title": "Suhoor Meal",
+        "content": "Eating the pre-dawn meal before fasting is a blessed act.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 56,
+        "title": "Hurrying Iftar",
+        "content": "Breaking the fast immediately after sunset is a beloved practice.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 57,
+        "title": "Feeding a Fasting Person",
+        "content": "Providing Iftar for someone earns the same reward as their fast without diminishing their reward.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 58,
+        "title": "Helping Families of Mujahids/Hajis",
+        "content": "Taking care of the families of those striving in Allah's path shares in their reward.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 59,
+        "title": "Praying for Martyrdom",
+        "content": "Sincerely asking Allah for martyrdom grants the rank of a martyr even if one dies in bed.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 60,
+        "title": "Early Morning Work",
+        "content": "Starting work early in the day brings barakah (blessing) as prayed for by the Prophet \ufdfa.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 61,
+        "title": "Dhikr in Marketplace",
+        "content": "Remembering Allah in the market, a place of heedlessness, brings millions of rewards.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 62,
+        "title": "Accepting Returned Goods",
+        "content": "Accepting a return from a remorseful buyer leads to Allah forgiving one's slips.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 63,
+        "title": "Lending to Needy",
+        "content": "Giving a loan to someone in need is rewarded as half of charity.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 64,
+        "title": "Leniency with Debtors",
+        "content": "Giving more time or forgiving a debt earns the shade of Allah's Throne.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 65,
+        "title": "Truth in Trade",
+        "content": "An honest merchant will be raised with the Prophets and Martyrs.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 66,
+        "title": "Planting Trees",
+        "content": "Any benefit derived by humans or animals from a planted tree counts as charity.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 67,
+        "title": "Kindness to Animals",
+        "content": "Showing mercy to animals can be a means of forgiveness for sins.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 68,
+        "title": "Killing Harmful Animals",
+        "content": "Protecting people from harm by removing dangerous pests is a good deed.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 69,
+        "title": "Controlling the Tongue",
+        "content": "Restraining speech protects one from many sins and is a guarantee of Paradise.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 70,
+        "title": "Avoiding Useless Activities",
+        "content": "Leaving that which does not concern one is a sign of the perfection of one's Islam.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 71,
+        "title": "Six Good Deeds",
+        "content": "Truthfulness, fulfilling trusts, chastity, lowering gaze, restraining hands, and fulfilling promises.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 72,
+        "title": "Starting from Right",
+        "content": "Using the right hand and starting from the right side in good things is the Sunnah.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 73,
+        "title": "Cleaning Dropped Morsel",
+        "content": "Picking up, cleaning, and eating fallen food shows humility and appreciation for sustenance.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 74,
+        "title": "Sneezing Etiquette",
+        "content": "Praising Allah when sneezing and responding to the one who sneezes is a mutual right.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 75,
+        "title": "Fear of Allah (Taqwa)",
+        "content": "Consciousness of Allah in private and public is the root of all goodness.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 76,
+        "title": "Optimism & Hope",
+        "content": "Having good expectations of Allah and hope in His mercy is an act of worship.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 77,
+        "title": "Modesty (Haya)",
+        "content": "Modesty is a branch of faith and brings nothing but good.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 78,
+        "title": "Consultation (Istikhara)",
+        "content": "Seeking Allah's guidance in matters prevents regret.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 79,
+        "title": "Consulting Others (Shura)",
+        "content": "Seeking advice from wise people is a safety from mistakes.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 80,
+        "title": "Visiting Graveyards",
+        "content": "Visiting graves reminds one of death and softens the heart.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 81,
+        "title": "Making Wudu before Sleep",
+        "content": "Sleeping in a state of purity invites the prayers of angels.\n\n(Full content will be available once the PDF is processed.)"
+    },
+    {
+        "id": 82,
+        "title": "Forgiving Debt",
+        "content": "Forgiving a debt for a person in difficulty is a deed of high status.\n\n(Full content will be available once the PDF is processed.)"
     }
 ]
