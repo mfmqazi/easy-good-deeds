@@ -50,21 +50,21 @@ def extract_text_from_pdf(pdf_path):
                         if is_garbage(text):
                             # Extract image
                             # Replace with placeholder instead of extracting image
-                            page_text += " [Arabic Text Image] "
-                            # bbox = fitz.Rect(span["bbox"])
-                            # # Add padding
-                            # bbox.x0 -= 2
-                            # bbox.y0 -= 2
-                            # bbox.x1 += 2
-                            # bbox.y1 += 2
+                            # page_text += " [Arabic Text Image] "
+                            bbox = fitz.Rect(span["bbox"])
+                            # Add padding
+                            bbox.x0 -= 2
+                            bbox.y0 -= 2
+                            bbox.x1 += 2
+                            bbox.y1 += 2
                             
-                            # pix = page.get_pixmap(clip=bbox, dpi=300)
-                            # filename = f"arabic_clip_{page_num+1}_{clip_count}.png"
-                            # pix.save(os.path.join(output_dir, filename))
+                            pix = page.get_pixmap(clip=bbox, dpi=300)
+                            filename = f"arabic_clip_{page_num+1}_{clip_count}.png"
+                            pix.save(os.path.join(output_dir, filename))
                             
-                            # # Append image tag to text
-                            # page_text += f' <img src="{output_dir}/{filename}" class="arabic-text" alt="Arabic Text" /> '
-                            # clip_count += 1
+                            # Append image tag to text
+                            page_text += f' <img src="{output_dir}/{filename}" class="arabic-text" alt="Arabic Text" /> '
+                            clip_count += 1
                         else:
                             page_text += text + " "
                     page_text += "\n"
