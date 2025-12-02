@@ -421,6 +421,7 @@ const deeds = [
     },
     {
         id: 71,
+        displayId: "71-77",
         title: "Six Good Deeds",
         category: "character",
         description: "Truthfulness, fulfilling trusts, chastity, lowering gaze, restraining hands, and fulfilling promises."

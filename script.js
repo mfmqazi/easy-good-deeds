@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'deed-card';
             card.innerHTML = `
-                <span class="deed-number">Deed #${deed.id}</span>
+                <span class="deed-number">Deed #${deed.displayId || deed.id}</span>
                 <h3 class="deed-title">${deed.title}</h3>
                 <p class="deed-preview">${truncateText(deed.description, 100)}</p>
                 <div class="deed-tags">
@@ -120,10 +120,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function openDeedModal(deed) {
         const content = deedsContent[deed.id] ? deedsContent[deed.id].content : deed.description;
-        
+
         modalBody.innerHTML = `
             <div class="modal-header">
-                <span class="modal-number">Deed #${deed.id}</span>
+                <span class="modal-number">Deed #${deed.displayId || deed.id}</span>
                 <h2 class="modal-title">${deed.title}</h2>
             </div>
             <div class="modal-body">

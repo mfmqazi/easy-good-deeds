@@ -152,6 +152,29 @@ def find_deed_content(full_text, deeds):
             # Check if line is just a number (page number)
             if re.match(r'^\s*\d+\s*$', line):
                 continue
+            
+            # Check for garbled text (long sequences of special chars)
+            # Examples: &j!*;ggq,;,$&pJi&p&, ~&.dJ3&y 36.j3;6L3J
+            
+            # Pattern 1: Sequence of 3+ specific noise characters
+            if re.search(r'[&@#$%\^&*/\\]{3,}', line) or re.search(r'[~`]{3,}', line):
+                line = re.sub(r'.*[&@#$%\^&*/\\]{3,}.*', '[Arabic Text Image]', line)
+            
+            # Pattern 2: Mixed garbage (words with symbols) repeated
+            elif re.search(r'(?:[\w]*[&@#$%\^&*/\\]+[\w]*\s*){3,}', line):
+                 line = re.sub(r'.*(?:[\w]*[&@#$%\^&*/\\]+[\w]*\s*){3,}.*', '[Arabic Text Image]', line)
+                 
+            # Pattern 3: Specific known garbage patterns from observation
+            elif "J' ' #MS.#" in line or ":&~yl~~~~fl" in line or "7~~&t" in line:
+                line = '[Arabic Text Image]'
+            
+            # Pattern 4: High ratio of non-alphanumeric characters
+            # If line is not empty and has > 40% non-alphanumeric chars (excluding spaces)
+            elif len(line.strip()) > 5:
+                non_alnum = re.sub(r'[a-zA-Z0-9\s]', '', line)
+                if len(non_alnum) / len(line.strip()) > 0.4:
+                     line = '[Arabic Text Image]'
+                
             cleaned_lines.append(line)
             
         content = '\n'.join(cleaned_lines).strip()
